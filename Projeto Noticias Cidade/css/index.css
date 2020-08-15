@@ -1,0 +1,222 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Trebuchet MS";
+	background: url(../Imagens/fundo.png) repeat-x;
+
+}
+
+#container{
+	width: 750px;
+	margin: auto;
+}
+
+#topo{
+	height: 190px;
+	background: url(../Imagens/detalhe-topo.png) no-repeat right top;
+	padding-top: 25px;
+}
+
+#rodape{
+	background:  #294c71;
+	padding: 20px;
+	color: white;
+	text-align: center;
+}
+
+.logo {
+	width: 152px;
+	height: 66px;
+	background: url(../Imagens/logo.png) no-repeat center;
+	text-indent: -3000px;
+}
+
+
+#conteudo {
+	margin-top: 60px;
+}
+
+#primeira {
+	width: 180px;
+	float: left;
+    margin: 0 0 20px -750px;
+}
+
+#tres-colunas #segunda {
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 195px;
+}
+
+#duas-colunas #segunda {
+	width: 555px;
+	float: left;
+	margin: 0 0 20px 195px;
+}
+
+#uma-coluna #segunda {
+	width: 720px;
+	float: left;
+	margin: 0 0 20px 0;
+}
+
+#terceira {
+	width: 270px;
+	float: left;
+	margin-bottom: 20px;
+	margin-left: 15px;
+	margin: 0 0 20px 15px;
+}
+
+#topo ul{
+	list-style-type: none;
+	margin: 46px -60px;
+	padding: 3px;
+	width: auto;
+	background: #8A0808;
+	float: left; /*como o fluxo do li é flutuante, o do ul tambem tem que ser*/
+}
+
+#topo ul li {
+	float: left; /*Para colocar os li flutuando*/
+}
+
+
+#topo ul a {
+	display: block;
+	line-height: 2.2em;
+	text-decoration: none;
+	color: white;
+	padding: 0 2em;
+	background: url(../Imagens/divisor.png) repeat-y ;
+}
+
+#topo ul .primeiro a{
+	background: none;
+}
+
+#topo ul a:hover {
+	color: #085662;
+}
+
+body.home #navegacao a#home {
+	color: white;
+	background: #DF0101;
+}
+
+
+.caixa {
+	margin: 5px; 0 0 10px;
+	padding: 5px;
+	background: url(../Imagens/fundo-caixa.png);
+}
+
+h2{
+	font-size: 1em;
+	background-color: #294c71;
+	color: white;
+	padding: 5px;
+}
+
+.caixa-conteudo {
+	background: white;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+
+#primeira ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#primeira ul a{	
+	display: block;
+	text-decoration: none;
+	line-height: 30px;
+	color: black;
+	background: white;
+	font-size: 0.9em;
+	padding: 3px;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+#primeira li a:hover {
+	background: url(../Imagens/marcador.png) no-repeat left center;
+	padding: 0 20px;
+	color: #a1a1a1;
+}
+
+label{
+	display: block;
+	cursor: pointer;
+}
+
+input{
+	padding: 5px;
+	width: 125px;
+	font-size: 0.9em;
+	background: white;
+	margin: 0 0 5px 0;
+}
+
+input.submit {
+	width: 80px;	
+	color: white;
+	background: #b10333;
+	border: 2px solid #870529;
+}
+
+a{
+	color: #b10333;
+	font-weight: bold;
+}
+
+
+#entrevista {
+	background: #b10333;
+	margin-bottom: 10px;
+	font-weight: bold;
+	width: 230px;
+}
+
+/*.imagem-mundo {
+	width: 80px;
+	height: 60px;
+	background: url(../Imagens/mundo.jpg) 100%;
+	float: left;
+}*/
+
+.imagem-mundo img {
+	float: left;
+}
+
+.conteudo-mundo {
+	width: 140px;
+	height: 60px;
+	float: right;
+	font-size: 0.8em;
+	padding: 0 0 0 5px;
+}
+
+.divisoes-mundo {
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+	width: auto;
+	height: 65px;
+}
+
+
+
+#destaque {
+	background: #b10333;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: white;
+	width: 140px;
+
+}
