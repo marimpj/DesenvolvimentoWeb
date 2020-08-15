@@ -1,0 +1,367 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Courier;
+	color: #FBF5F6
+}
+
+header{
+	background: #BFEBE9;
+	height: 200px;
+}
+
+
+#container{
+	width: 1050px;
+	margin: auto;
+}
+
+
+/* header */
+header #logo{
+	margin: 0px 500px 0px 50px;
+	float: left;
+
+}
+
+header #logo-insta{
+	float: right;
+	margin: 90px 10px 0px 0px;
+}
+
+header #logo-fb {
+	float: right;
+	margin: 90px 10px 0px 0px;
+
+}
+
+
+header ul{
+	list-style-type: none;
+	margin: 5px 0px;
+	padding: 3px;
+	width: 1043px;
+	background: #1C88C0;
+	float: left; /*como o fluxo do li é flutuante, o do ul tambem tem que ser*/
+}
+
+header ul li {
+	float: left; /*Para colocar os li flutuando*/
+	margin-left: 85px;
+	font-size: 1.1em;
+}
+
+
+header ul a {
+	display: block;
+	line-height: 2.2em;
+	text-decoration: none;
+	color: white;
+	padding: 0 3em;
+}
+
+header ul a:hover {
+	color: orange;
+}
+
+
+
+/*conteudo-pets*/
+article {
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin-left: 38px;
+	border: 1px dashed #1C88C0;
+}
+
+article h3{
+	padding: 0;
+	margin: 0;
+	font-size: 1.5em;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.imagem-mundo img {
+	float: left;
+}
+
+.conteudo-dog {
+	width: 140px;
+	height: 60px;
+	float: right;
+	font-size: 1em;	
+}
+
+.bloco {
+	padding: 5px;
+	width: auto;
+}
+
+article{
+	margin-top: 30px;
+	background: #BFEBE9;
+	color: #346AC2;
+}
+
+.btn {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  color: #FBF5F6;
+  font-weight: bold;
+  font-size: 1em;
+  background: #1C88C0;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #2F306B;
+  text-decoration: none;
+}
+
+.bloco .botao{
+	margin-top: 18px;
+	margin-left: 60px;
+}
+
+#paginacao ul{
+	list-style-type: none;
+	margin: 15px 450px;
+	padding: 3px;
+	width: auto;
+	background: #1C88C0;
+	float: left; /*como o fluxo do li é flutuante, o do ul tambem tem que ser*/
+}
+
+#paginacao ul li {
+	float: left; /*Para colocar os li flutuando*/
+	margin-left: px;
+	font-size: 1.1em;
+}
+
+
+#paginacao ul a {
+	display: block;
+	line-height: 1.8em;
+	text-decoration: none;
+	color: white;
+	padding: 0 0.5em;
+}
+
+#paginacao ul a:hover {
+	color: #2F306B;
+}
+
+/*conteudo-home*/
+
+#banner {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.galeria {
+	width: 60%;
+	float: left;
+	border: 1px dashed #1C88C0;
+	background: #BFEBE9;
+	margin-bottom: 30px;
+}
+
+.redes{
+	width:  39%;
+	float: right;
+	color:  #1C88C0;
+}
+
+.galeria a {
+	background: url(../Imagens/fundo-foto.png) no-repeat;
+	display: block;
+	float: left;
+	padding: 17px 15px;
+	margin: 10px 0 0 20px;
+
+}
+
+.galeria img{
+	margin-left: 2px;
+	margin-top: 2px;
+}
+
+.galeria h4{
+	margin-left: 7px;
+	margin-bottom: 0px;
+	color:  #1C88C0;
+}
+
+.redes .video{
+	padding: 5px 5px 2px 5px;
+	border: 1px dashed #1C88C0;
+	background: #BFEBE9;
+	margin-left: 15px;
+}
+
+.redes-sociais{
+	font-weight: bold;
+	margin-top: 10px;
+	width: 392.5px;
+	margin-left: 15px;
+	border: 1px dashed #1C88C0;
+	background: #BFEBE9;
+	padding-top: 3px;
+}
+
+.redes-sociais #logo-insta{
+	float: right;
+	margin-right: 10px;
+	margin-top: 3px;
+	padding-bottom: 3px;
+}
+
+.redes-sociais #logo-fb{
+	float: right;
+	margin-top: 3px;
+	padding-bottom: 3px;
+}
+
+.redes-sociais #logos{
+	display: flex;
+	justify-content: center;
+}
+
+/*interesse-pet*/
+
+#card {
+	width: 80%;
+	height: 450px;
+	margin:  15px auto;
+	background: #BFEBE9;
+	color:  #1C88C0;
+	border: 1px dashed #1C88C0;
+}
+
+#card img{
+	padding: 5px;
+}
+
+#card a{
+	margin-left: 370px;
+	margin-top: -30px;
+}
+
+.lateral-direita{
+	width: 62%;
+	float: right; 
+	text-align: center;
+
+}
+
+.lateral-esquerda{
+	width: 37%;
+	float: left;
+}
+
+.desc{
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: justify;
+}
+
+.desc h1{
+	text-align: center;
+}
+
+.info{
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.contato p{
+	margin-top: 50px;
+	text-align: right;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+/* sobre */
+.container {
+	color:  #1C88C0;
+	background: #BFEBE9;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 15px;
+	text-align: justify;
+	border: 1px dashed #1C88C0;
+	margin-top: 15px;
+}
+
+.container p{
+	padding: 0px 10px;
+}
+ 
+.container .video {
+	margin-left: 230px;
+}
+
+.container h2{
+	text-align: center;
+}
+
+/* contato */
+.anuncio {
+	color:  #1C88C0;
+	background: #BFEBE9;
+	width: 50%;
+	margin: 15px 0;
+	padding: 10px;
+	float: left;
+	border: 1px dashed #1C88C0;
+	margin-left: 50px;
+}
+
+form input{
+	margin:  0 3px;
+}
+
+form .btn{
+	margin-left: 220px;
+}
+
+.pg-contato .redes-sociais {
+	color:  #1C88C0;
+	font-weight: bold;
+	margin-top: 15px;
+	float: right;
+	margin-right: 50px;
+}
+
+/*rodape*/
+footer{
+	background: #1C88C0;
+	margin-top: 0px;
+	height: 110px;
+	text-align: center;
+}
+
+
+footer #logos{
+	display: flex;
+	justify-content: center;
+
+}
+
+footer #logo-insta{
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+footer #logo-fb{
+	float: right;
+	margin-top: 5px;
+}
