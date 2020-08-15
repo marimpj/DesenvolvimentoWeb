@@ -1,0 +1,173 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../Imagens/fundo.png) repeat-x;
+	font: 12px "Lucida Grande";
+}
+
+#container{
+	height: 1080px;
+	width: 1080px;
+	margin: 0 auto;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+}
+
+header img {
+	margin-top: 20px;
+}
+
+
+header ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	margin-top: 50px;
+	margin-right: 40px;
+}
+
+header ul li {
+	float: left;
+	padding: 0 1em;
+}
+
+
+header ul a {
+	display: block;
+	text-decoration: none;
+	color:white;
+	font-size: 1.1em;
+	text-transform: uppercase;
+}
+
+a:link, a:active, a:visited{
+	color: #af670a;
+	text-decoration: none;
+
+}
+
+header ul li a:hover {
+	color: #227115;
+	border-bottom: 1px solid #535858;
+}
+
+#principal{
+	margin-top: 40px;
+}
+
+#conteudo{
+	width: 710px;
+	float: left;
+}
+
+aside{
+	width: 350px;
+	float: right;
+	background: #ebe7dd;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+}
+
+h4{
+	margin-bottom: 0;
+	padding-bottom: 3px;
+	color: #86521a;
+	font-size: 1.1em;
+}
+
+#visita{
+	margin-top: 10px;
+	background: #cdc8b1;
+	padding: 10px 27px 27px 27px;
+}
+
+input {
+	height: 20px;
+	width: 80px;
+	background: #fff;
+	border:none;
+}
+
+input.botao {
+	background-color: #9b9271;
+	color: white;
+	width: 100%;
+	height: 40px;
+	font-size: 1.2em;
+}
+
+fieldset{
+	border: none;
+	font-size: 1.1em;
+}
+
+section#galeria a {
+	background: url(../Imagens/fundo-foto.png) no-repeat;
+	display: block;
+	float: left;
+	padding: 17px 15px;
+	margin: 10px 0 0 20px;
+
+}
+
+section#galeria img{
+	margin-left: 2px;
+	margin-top: 2px;
+}
+
+section#galeria h4{
+	margin-left: 7px;
+}
+
+
+
+#exposicoes ul li{
+	font-size: 1.1em;
+}
+
+#exposicoes{
+	width: 310px;
+	height: 170px;
+	margin-top: 30px;
+
+}
+
+#historia{
+	width: 310px;
+	height: 170px;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+
+#postagens {
+	display: flex;
+	width: 710px;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#mapa{
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	font-size: 1.1em;
+}
+
+footer{
+	padding: 20px 0 30px 0;
+	text-align: center;
+	background: url(../Imagens/fundo-rodape.png) no-repeat center top;
+	margin-top: 20px;
+	clear: both;
+}
+
+#rodape-link a{
+	padding: 0 30px;
+}
+
